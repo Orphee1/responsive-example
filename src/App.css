@@ -1,38 +1,86 @@
-.App {
-  text-align: center;
+/* ========================== Police import =============== */
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:ital,wght@0,600;1,400&display=swap");
+
+/* font-family: 'Lobster', cursive;
+font-family: 'Montserrat', sans-serif; */
+/* =============== REPERES DEBUG ================== */
+
+.red {
+  background-color: red;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.green {
+  background-color: green;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.blue {
+  background-color: blue;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.yellow {
+  background-color: yellow;
+}
+
+.orange {
+  background-color: #f56b2b;
+  color: #f56b2b;
+}
+
+/* =============== RESET =============================== */
+ul,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+}
+
+/* ========================== Global rules ================ */
+
+h1 {
+  font-size: 25px;
+  font-family: "Lobster", cursive, sans-serif;
+  font-weight: lighter;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+h2 {
+  font-size: 80px;
+  font-family: "Lobster", cursive, sans-serif;
+  font-weight: lighter;
+  color: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h3 {
+  font-size: 35px;
+  color: white;
+}
+
+h4 {
+  font-size: 30px;
+  color: white;
+}
+
+p {
+  font-size: 25px;
+  color: white;
+}
+li {
+  font-size: 20px;
+}
+li span {
+  color: white;
 }
